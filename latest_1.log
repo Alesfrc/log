@@ -1,0 +1,1083 @@
+[11:37:35] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.22
+[11:37:36] [ForkJoinPool-1-worker-6/WARN]: Mod com_github_krlite_pierced uses the version v1.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:37:36] [ForkJoinPool-1-worker-3/WARN]: Mod identifier_translation uses the version 3_1.20-1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3_1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:37:36] [ForkJoinPool-1-worker-3/WARN]: Mod itemscroller uses the version craftfix-1.2.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'craftfix'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:37:37] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+[11:37:37] [main/INFO]: Loading 212 mods:
+	- advancementinfo 1.20-fabric0.83.0-1.4
+	- ambientsounds 5.2.22
+	- animatica 0.6+1.20
+	- appleskin 2.5.0+mc1.20
+	- architectury 9.1.12
+	- badpackets 0.4.2
+	- balm-fabric 7.1.4
+	- betterf3 7.0.1
+	- betterpingdisplay 1.1.1
+	- bettertaskbar 1.7.0
+	- boatiview 0.0.5
+	- bobby 5.0.1
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- can-i-mine-this-block 1.4.0
+	- capes 1.5.2+1.20
+	- carpet 1.4.112+v230608
+	- chat_heads 0.10.21
+	- chesttracker 1.1.22
+	   |-- libgui 8.0.0+1.20
+	   |    |-- jankson 5.0.1+j1.2.2
+	   |    |    \-- blue_endless_jankson 1.2.2
+	   |    \-- libninepatch 1.2.0
+	   \-- whereisit 1.14.17
+	- citresewn 1.1.3+1.20
+	   \-- citresewn-defaults 1.1.3+1.20
+	- clientcommands 2.8.5
+	   |-- betterconfig 1.2.1
+	   \-- clientarguments 1.5
+	- clienttweaks 11.1.0
+	- cloth-config 11.1.106
+	   \-- cloth-basic-math 0.6.1
+	- cmdkeybind 1.6.3-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- continuity 3.0.0-beta.3+1.20.1
+	- creativecore 2.10.28
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- customskinloader 14.17
+	- debugify 1.20.1+2.0
+	- detailab 2.6.3+1.20.1-fabric
+	- draggable_lists 1.0.1
+	- easiercrafting 1.20-fabric0.83.0-1.7
+	   |-- crowdin-translate 1.4+1.19.3
+	   \-- gbfabrictools 1.3.5+1.20
+	- easiervillagertrading 1.20-fabric0.83.0-1.5.4
+	   \-- gbfabrictools 1.3.5+1.20
+	- enchlevel-langpatch 2.1.2
+	- enhancedblockentities 0.9+1.20
+	   |-- advanced_runtime_resource_pack 0.6.7
+	   \-- spruceui 5.0.0+1.20
+	- entityculling 1.6.2-mc1.20.1
+	- fabric-api 0.89.0+1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b77
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.9+b3afc78b77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.0+0883a8d477
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.10+23d9108177
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.39+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.43+9e7660c677
+	   |-- fabric-message-api-v1 5.1.7+3265161977
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.1+6beca84877
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.1+195226a777
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabric-language-kotlin 1.10.10+kotlin.1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.22.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.0
+	- fabricloader 0.14.22
+	- fastquit 3.0.0+1.20+
+	- ferritecore 6.0.0
+	- forgeconfigapiport 8.0.0
+	- ftblibrary 2001.1.3
+	- ftbultimine 2001.1.2
+	- held-item-info 1.5.0
+	- i18nupdatemod 3.5.0
+	- ias 8.0.2
+	- identifier_translation 3_1.20-1.20.1
+	- imblocker 1.0.24
+	- indium 1.0.27+mc1.20.1
+	- inventoryhud 3.4.18
+	- inventoryprofilesnext 1.10.7
+	- itemphysiclite 1.6.2
+	- itemscroller craftfix-1.2.7
+	- java 17
+	- languagereload 1.5.8+1.20.1
+	- lanserverproperties 1.11
+	- lazydfu 0.1.3
+	- libipn 4.0.0
+	- lilac 1.0.0-beta.2
+	- litematica 0.15.3
+	- lithium 0.11.2
+	- magiclib 0.7.387+c02a0de-stable
+	   \-- magiclib-1_20_1 0.7.387+c02a0de-stable
+	- malilib 0.16.2
+	- masa_gadget_mod 3.2.331+61c3583-stable
+	   \-- masa_gadget_mod-1_20_1 3.2.331+61c3583-stable
+	- meteor-client 0.5.4-1940
+	   \-- baritone-meteor 1.20.1-SNAPSHOT
+	- meteor-litematica-printer 1.2
+	- meteor-villager-roller 1.4.2+mc1.20.1-rev.ac89621
+	- midnightlib 1.4.1
+	- minecraft 1.20.1
+	- minihud 0.27.0
+	- modernfix 5.7.2+mc1.20.1
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.9
+	- modernui 3.8.2.4
+	- modmenu 7.2.2
+	- nbtedit 1.20.1-4.4.2-release
+	- ommc-1_20_1 0.5.318+ab0c0cf-beta
+	- optigui 2.1.5
+	   |-- optiglue 2.1.5-mc.1.19.3
+	   |-- org_apache_commons_commons-text 1.10.0
+	   \-- org_ini4j_ini4j 0.5.4
+	- paragraphs 1.0
+	- pickblockpro 1.7.20
+	- pistorder 1.5.0
+	- presencefootsteps 1.9.0
+	   \-- kirin 1.15.0
+	- quickshulker 1.4.0-1.20
+	   \-- shulkerutils 1.0.4-1.19
+	- recursiveresources 2.5.2+1.20
+	   |-- cicada 0.4.0
+	   \-- shared-resources-api 1.5.2
+	- reeses-sodium-options 1.6.5+mc1.20.1-build.95
+	- roughlyenoughitems 12.0.659
+	   \-- error_notifier 1.0.9
+	- skinlayers 1.5.4-mc1.20.1
+	- sodium 0.5.3
+	- sodium-extra 0.5.1+mc1.20.1-build.112
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- starlight 1.1.2+fabric.dbc156f
+	- swingthrough 1.0.4+1.19
+	- swordblocking 1.3.1
+	- syncmatica 1.20.1-0.3.10
+	- tbim 1.0.1
+	- tooltipfix 1.1.1-1.20
+	- tweakermore 3.14.0
+	   \-- conditional-mixin 0.3.2
+	- tweakeroo 0.17.1
+	- tweakmyclient 3.6.409+cc61506-stable
+	   \-- tweakmyclient-1_20_1 3.6.409+cc61506-stable
+	- vanadium 0.1.625
+	- viafabricplus 2.8.7
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.9
+	- videotape 1.2.1
+	   \-- com_github_krlite_pierced v1.2
+	- worldedit 7.2.15+6463-5ca4dff
+	- wthit 8.4.0
+	- wuhu-client 1.0.2
+	   \-- com_belerweb_pinyin4j 2.5.1
+	- xaerominimap 23.8.0
+	- xaeroplus 1.20.1
+	- xaeroworldmap 1.34.1
+	- yet_another_config_lib_v3 3.1.1+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   \-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+	- zoomify 2.11.2
+	   |-- com_akuleshov7_ktoml-core-jvm 0.4.1
+	   |-- dev_isxander_settxi_settxi-core 2.10.6
+	   \-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.6
+[11:37:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/Minecraft/.minecraft/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[11:37:40] [main/INFO]: Compatibility level set to JAVA_16
+[11:37:40] [main/INFO]: Compatibility level set to JAVA_17
+[11:37:42] [main/WARN]: Reference map 'betterconfig-refmap.json' for betterconfig.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:37:42] [main/WARN]: Reference map 'client-betterconfig-refmap.json' for betterconfig.mixins.client.json could not be read. If this is a development environment you can ignore this message
+[11:37:43] [main/WARN]: Reference map 'clientarguments-refmap.json' for clientarguments.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:37:43] [main/INFO]: Preloading Debugify
+[11:37:44] [main/WARN]: Reference map 'draggable_lists-fabric-refmap.json' for fabric-draggable_lists.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:37:44] [main/WARN]: Reference map 'de-guntram-mcmod-fabrictools-refmap.json' for mixins.de-guntram-mcmod-fabrictools.json could not be read. If this is a development environment you can ignore this message
+[11:37:44] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[11:37:47] [main/INFO]: Loaded configuration file for ModernFix 5.7.2+mc1.20.1: 50 options available, 0 override(s) found
+[11:37:47] [main/INFO]: Applying Nashorn fix
+[11:37:47] [main/WARN]: Reference map 'shared-resources-api-refmap.json' for shared-resources-api.mixins.json could not be read. If this is a development environment you can ignore this message
+[11:37:47] [main/WARN]: Mod 'vanadium' attempted to override option 'quality.biome_blend', which doesn't exist, ignoring
+[11:37:47] [main/INFO]: Loaded configuration file for Sodium: 41 options available, 0 override(s) found
+[11:37:47] [main/INFO]: Loaded configuration file for Sodium Extra: 32 options available, 0 override(s) found
+[11:37:49] [main/WARN]: Force disabled MC-135971 because it's conflicting with: carpet
+[11:37:49] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[11:37:49] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[11:37:49] [main/WARN]: Force disabled MC-176559 because it's conflicting with: fabric-api
+[11:37:49] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[11:37:50] [main/WARN]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/gui/widget/TextFieldWidget)
+[11:37:51] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[11:37:51] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[11:37:57] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/ChunkTracker (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/ChunkTracker)
+[11:37:57] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[11:37:57] [main/WARN]: Error loading class: xaero/pvp/BetterPVP (java.lang.ClassNotFoundException: xaero/pvp/BetterPVP)
+[11:37:58] [main/WARN]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/gui/widget/TextFieldWidget)
+[11:37:58] [main/WARN]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/gui/widget/TextFieldWidget)
+[11:37:58] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[11:37:58] [main/INFO]: I used the json to destroy the json
+[11:38:00] [main/INFO]: Searching for graphics cards...
+[11:38:02] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon(TM) Vega 8 Graphics, version=DriverVersion=27.20.11044.5003]
+[11:38:04] [main/WARN]: No Bedrock account could be found
+[11:38:08] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[11:38:09] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:38:09] [main/INFO]: Loading translations...
+[11:38:09] [main/INFO]: Registering protocols...
+[11:38:14] [main/INFO]: Started resource pack HTTP server on http://127.0.0.1:56438/
+[11:38:14] [main/INFO]: ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[11:38:14] [main/INFO]: Highest supported version by the proxy: 1.20.2 (764)
+[11:38:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:38:15] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[11:38:15] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[11:38:20] [main/WARN]: Method overwrite conflict for getLanguage in worldedit-fabric.mixins.json:MixinServerPlayer from mod worldedit, previously written by carpet.mixins.ServerPlayer_scarpetEventMixin. Skipping method.
+[11:38:29] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[11:38:29] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[11:38:29] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[11:38:29] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[11:38:29] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:33] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[11:38:34] [main/WARN]: Method overwrite conflict for method_7865 in viafabricplus.mixins.json:fixes.minecraft.item.MixinPickaxeItem from mod viafabricplus, previously written by carpet.mixins.PickaxeItem_missingToolsMixin. Skipping method.
+[11:38:38] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[11:38:38] [main/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:MixinServerPlayNetworkHandler from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
+[11:38:41] [main/WARN]: @Final field field_21527:Lit/unimi/dsi/fastutil/objects/Object2ObjectArrayMap; in vanadium.mixins.json:client.ClientWorldMixin from mod vanadium should be final
+[11:38:41] [main/WARN]: Method overwrite conflict for sodium$getBiomeSeed in vanadium.sodium.mixins.json:SodiumClientWorldMixin from mod vanadium, previously written by me.jellysquid.mods.sodium.mixin.core.world.biome.ClientWorldMixin. Skipping method.
+[11:38:47] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[11:38:47] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[11:38:49] [main/INFO]: Vanilla bootstrap took 25446 milliseconds
+[11:38:52] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:38:52] [Render thread/INFO]: Setting user: Alesfrc
+[11:38:53] [Render thread/INFO]: Bypassed Mojang DFU
+[11:38:54] [Render thread/INFO]: BetterPingDisplay mod loaded
+[11:38:54] [Cicada thread 0/INFO]: [recursiveresources] This mod is a fork of the now abandoned mod called Resource Pack Organizer, originally made by chylex.
+[11:38:54] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor!
+[11:38:55] [Render thread/INFO]: Enabled 66 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[11:38:55] [Render thread/INFO]: Successfully Debugify'd your game!
+[11:38:55] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_nbt
+[11:38:55] [Render thread/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[11:38:55] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[11:38:55] [Render thread/INFO]: Registering S2C receiver with id ftbultimine:send_shape
+[11:38:55] [Render thread/INFO]: Registering C2S receiver with id ftbultimine:key_pressed
+[11:38:55] [Render thread/INFO]: Registering C2S receiver with id ftbultimine:mode_changed
+[11:38:55] [Render thread/INFO]: Registering S2C receiver with id ftbultimine:sync_config_from_server
+[11:38:55] [Render thread/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[11:38:55] [Render thread/INFO]: Registering S2C receiver with id ftbultimine:edit_config
+[11:38:58] [Render thread/INFO]: [MagicLib|Common]: Mod initialized - Version: 0.7.387+c02a0de-stable
+[11:38:58] [Render thread/WARN]: Signature is missing
+[11:38:58] [Render thread/INFO]: Modern UI common config loaded/reloaded
+[11:38:58] [Render thread/INFO]: Initialized Modern UI
+[11:38:58] [Render thread/INFO]: Loading NBTEdit ver: 1.20.1-4.4.2-release
+[11:38:58] [Render thread/INFO]: [STDOUT]: Paragraphs mod started!
+[11:38:59] [Render thread/INFO]: [REI] Config loaded
+[11:38:59] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider ReiRecipeAction [wthit] for REIPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[11:38:59] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[11:38:59] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[11:38:59] [Render thread/INFO]: Video Tape initialized
+[11:38:59] [Render thread/INFO]: REI Found
+[11:39:01] [Render thread/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@101fcdcf]
+[11:39:01] [Render thread/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[11:39:01] [Render thread/WARN]: FileSystem for viafabricplus 2.8.7 has been closed unexpectedly, existing root path references may break!
+[11:39:01] [Render thread/INFO]: [WTHIT] Registering plugin cimtb:cimtb_plugin at me.shedaniel.cimtb.CimtbWailaPlugin
+[11:39:01] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
+[11:39:01] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
+[11:39:02] [Render thread/INFO]: [WTHIT] Registering plugin waila:fabric at mcp.mobius.waila.plugin.fabric.WailaPluginFabric
+[11:39:02] [Render thread/INFO]: [WTHIT] Registering plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
+[11:39:02] [Render thread/INFO]: [WTHIT] Using mcp.mobius.waila.plugin.core.pick.ObjectPicker as the object picker
+[11:39:02] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[11:39:02] [Render thread/INFO]: AdvancementInfo initialized
+[11:39:02] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[11:39:02] [Render thread/INFO]: [BetterF3] Loading...
+[11:39:02] [Render thread/INFO]: [BetterF3] All done!
+[11:39:03] [Render thread/INFO]: Trying to read config file...
+[11:39:03] [Render thread/INFO]: A config file was found, loading it..
+[11:39:03] [Render thread/INFO]: Successfully loaded config file.
+[11:39:04] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[11:39:04] [Render thread/INFO]: [citresewn] Registering CIT Types
+[11:39:05] [Render thread/INFO]: Loading Description Cache
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:netherite_chestplate' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:diamond_helmet' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:turtle_helmet'!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:iron_helmet' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:chainmail_helmet' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:golden_helmet' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:leather_helmet' and 3 more items!
+[11:39:06] [Render thread/INFO]: Successfully registered 'minecraft:elytra'!
+[11:39:06] [Render thread/INFO]: letter_A.lr loaded
+[11:39:06] [Render thread/INFO]: letter_B.lr loaded
+[11:39:06] [Render thread/INFO]: letter_C.lr loaded
+[11:39:06] [Render thread/INFO]: letter_D.lr loaded
+[11:39:06] [Render thread/INFO]: letter_E.lr loaded
+[11:39:06] [Render thread/INFO]: letter_F.lr loaded
+[11:39:06] [Render thread/INFO]: letter_G.lr loaded
+[11:39:06] [Render thread/INFO]: letter_H.lr loaded
+[11:39:06] [Render thread/INFO]: letter_I.lr loaded
+[11:39:06] [Render thread/INFO]: letter_J.lr loaded
+[11:39:06] [Render thread/INFO]: letter_K.lr loaded
+[11:39:06] [Render thread/INFO]: letter_L.lr loaded
+[11:39:06] [Render thread/INFO]: letter_M.lr loaded
+[11:39:06] [Render thread/INFO]: letter_N.lr loaded
+[11:39:06] [Render thread/INFO]: letter_O.lr loaded
+[11:39:06] [Render thread/INFO]: letter_P.lr loaded
+[11:39:06] [Render thread/INFO]: letter_Q.lr loaded
+[11:39:06] [Render thread/INFO]: letter_R.lr loaded
+[11:39:06] [Render thread/INFO]: letter_S.lr loaded
+[11:39:06] [Render thread/INFO]: letter_T.lr loaded
+[11:39:06] [Render thread/INFO]: letter_U.lr loaded
+[11:39:06] [Render thread/INFO]: letter_V.lr loaded
+[11:39:06] [Render thread/INFO]: letter_W.lr loaded
+[11:39:06] [Render thread/INFO]: letter_X.lr loaded
+[11:39:06] [Render thread/INFO]: letter_Y.lr loaded
+[11:39:06] [Render thread/INFO]: letter_Z.lr loaded
+[11:39:06] [Render thread/INFO]: mark_dot.lr loaded
+[11:39:06] [Render thread/INFO]: mark_exclam.lr loaded
+[11:39:06] [Render thread/INFO]: mark_question.lr loaded
+[11:39:08] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[11:39:08] [Render thread/INFO]: [FastQuit] Initialized
+[11:39:09] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
+[11:39:09] [Render thread/INFO]: [MagicLib|Client]: Mod initialized - Version: 0.7.387+c02a0de-stable
+[11:39:09] [Render thread/INFO]: Modern UI client config loaded/reloaded
+[11:39:09] [Thread-4/INFO]: Modern UI client config loaded/reloaded
+[11:39:09] [Render thread/INFO]: Modern UI text config loaded/reloaded
+[11:39:09] [Thread-4/INFO]: Modern UI text config loaded/reloaded
+[11:39:09] [Render thread/INFO]: Initialized Modern UI text engine
+[11:39:09] [Render thread/INFO]: Initialized Modern UI client
+[11:39:10] [Worker-Main-2/INFO]: Checking mod updates...
+[11:39:10] [Render thread/INFO]: OptiGlue initialized.
+[11:39:10] [Render thread/INFO]: OptiGUI initialized.
+[11:39:11] [Render thread/INFO]: Loaded 4 block overrides and encountered 0 errors
+[11:39:11] [Render thread/INFO]: Loaded 2 entity overrides and encountered 0 errors
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: [REI] Registered plugin provider ReiRecipeAction [wthit] for REIClientPlugin
+[11:39:11] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[11:39:11] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[11:39:11] [Render thread/WARN]: Error loading class: me/shedaniel/rei/gui/widget/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/gui/widget/TextFieldWidget)
+[11:39:11] [Render thread/INFO]: [Tweak My Client]: Mod initialized - Version: 3.6.409+cc61506-stable (Public Release)
+[11:39:11] [Render thread/INFO]: Vanadium initialized, we're adding some color to your world
+[11:39:11] [Render thread/INFO]: Initializing XaeroPlus
+[11:39:12] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[11:39:12] [Render thread/WARN]: @Final field identityMatrix:Lorg/joml/Matrix4f; in xaeroplus.mixins.json:MixinGuiMap from mod xaeroplus should be final
+[11:39:12] [Render thread/INFO]: xaeroplus.mixins.json:MixinGuiMapAccessor from mod xaeroplus->@Accessor[FIELD_GETTER]::getDestScale()D should be static as its target is
+[11:39:13] [Render thread/ERROR]: suppressed exception
+java.net.SocketTimeoutException: Connect timed out
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2048) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2043) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2042) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1609) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at xaero.common.patreon.Patreon.checkPatreon(Patreon.java:80) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at xaero.common.patreon.Patreon.checkPatreon(Patreon.java:59) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at xaero.map.patreon.Patreon.checkPatreon(Patreon.java:67) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at xaero.map.WorldMap.loadClient(WorldMap.java:213) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at xaero.map.WorldMap.onInitializeClient(WorldMap.java:77) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.22.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1%20Fabric.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.22.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:60) ~[?:?]
+	at oolloo.jlw.Wrapper.main(Wrapper.java:53) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:534) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:639) ~[?:?]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:282) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:387) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:409) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3240) ~[?:?]
+	at java.net.URLConnection.getHeaderFieldLong(URLConnection.java:637) ~[?:?]
+	at java.net.URLConnection.getContentLengthLong(URLConnection.java:509) ~[?:?]
+	at xaero.common.patreon.Patreon.checkPatreon(Patreon.java:78) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	... 18 more
+[11:39:13] [Worker-Main-2/INFO]: Update available for 'optigui@2.1.5', (-> 2.2.0-alpha.1)
+[11:39:13] [Worker-Main-2/INFO]: Update available for 'xaerominimap@23.8.0', (-> 23.8.1_Fabric_1.20)
+[11:39:15] [Render thread/ERROR]: suppressed exception
+java.net.SocketTimeoutException: Read timed out
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2048) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2043) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:2042) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1609) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at xaero.map.misc.Internet.checkModVersion(Internet.java:55) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at xaero.map.WorldMap.loadClient(WorldMap.java:214) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at xaero.map.WorldMap.onInitializeClient(WorldMap.java:77) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.22.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1%20Fabric.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.22.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:60) ~[?:?]
+	at oolloo.jlw.Wrapper.main(Wrapper.java:53) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827) ~[?:?]
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:762) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3240) ~[?:?]
+	at java.net.URLConnection.getHeaderFieldLong(URLConnection.java:637) ~[?:?]
+	at java.net.URLConnection.getContentLengthLong(URLConnection.java:509) ~[?:?]
+	at xaero.map.misc.Internet.checkModVersion(Internet.java:53) ~[%5BXaero的世界地图%5D%20XaerosWorldMap_1.34.1_Fabric_1.20.jar:?]
+	... 16 more
+[11:39:16] [Render thread/INFO]: Configure file loaded
+[11:39:16] [Render thread/INFO]: Instantiating Mojang DFU
+[11:39:19] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[11:39:19] [Render thread/INFO]: Promoted to OpenGL 4.6 Core Profile
+[11:39:20] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[11:39:20] [Render thread/INFO]: OpenGL Renderer: AMD Radeon(TM) Vega 8 Graphics
+[11:39:20] [Render thread/INFO]: OpenGL Version: 4.6.13596 Core Profile Forward-Compatible No Error Context 20.10.44.05 27.20.11044.5003
+[11:39:20] [Render thread/INFO]: OpenGL vendor: ATI Technologies Inc.
+[11:39:20] [Render thread/INFO]: OpenGL renderer: AMD Radeon(TM) Vega 8 Graphics
+[11:39:20] [Render thread/INFO]: OpenGL version: 4.6.13596 Core Profile Forward-Compatible No Error Context 20.10.44.05 27.20.11044.5003
+[11:39:20] [Render thread/INFO]: UI manager initialized
+[11:39:21] [Render thread/INFO]: Preloaded modern text shaders
+[11:39:21] [Render thread/INFO]: ARRP register - before vanilla
+[11:39:21] [Render thread/INFO]: ARRP register - after vanilla
+[11:39:21] [Render thread/INFO]: ARRP register - before user
+[11:39:22] [Render thread/INFO]: Loaded text layout engine, res level: 2, locale: zh_CN, layout RTL: false
+[11:39:22] [Render thread/WARN]: Method overwrite conflict for getModel in fabric-model-loading-api-v1.mixins.json:BakedModelManagerMixin from mod fabric-model-loading-api-v1, previously written by foundationgames.enhancedblockentities.mixin.BakedModelManagerMixin. Skipping method.
+[11:39:23] [UI thread/INFO]: UI thread initialized in 2410ms
+[11:39:23] [Render thread/INFO]: Replacing search trees with 'REI' provider
+[11:39:25] [Render thread/INFO]: Invalidating pack caches
+[11:39:25] [Render thread/INFO]: Reloading ResourceManager: vanilla, file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip, fabric (advanced_runtime_resource_pack, advancementinfo, ambientsounds, animatica, appleskin, balm-fabric, betterconfig, betterf3, betterpingdisplay, bettertaskbar, boatiview, bobby, caffeineconfig, can-i-mine-this-block, capes, carpet, chat_heads, chesttracker, cicada, citresewn, citresewn-defaults, clientcommands, clienttweaks, cloth-config, cmdkeybind, conditional-mixin, continuity, creativecore, debugify, detailab, draggable_lists, easiercrafting, easiervillagertrading, enchlevel-langpatch, enhancedblockentities, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fastquit, forgeconfigapiport, ftblibrary, ftbultimine, gbfabrictools, held-item-info, ias, identifier_translation, imblocker, indium, inventoryhud, inventoryprofilesnext, itemscroller, jankson, kyrptconfig, languagereload, lanserverproperties, lazydfu, libgui, libipn, lilac, litematica, lithium, magiclib, magiclib-1_20_1, malilib, masa_gadget_mod, masa_gadget_mod-1_20_1, meteor-client, meteor-litematica-printer, meteor-villager-roller, midnightlib, minihud, modernfix, modernui, modmenu, nbtedit, ommc-1_20_1, optigui, paragraphs, pickblockpro, pistorder, presencefootsteps, quickshulker, recursiveresources, reeses-sodium-options, roughlyenoughitems, shared-resources-api, skinlayers, sodium, sodium-extra, spruceui, starlight, swingthrough, swordblocking, syncmatica, tooltipfix, tweakermore, tweakeroo, tweakmyclient, tweakmyclient-1_20_1, vanadium, viafabricplus, whereisit, worldedit, wthit, wuhu-client, xaerominimap, xaeroplus, xaeroworldmap, yet_another_config_lib_v3, zoomify), swordblocking:blocking_predicates
+[11:39:25] [Render thread/INFO]: closing rrp ebe:base_resources
+[11:39:25] [Render thread/INFO]: ARRP register - before vanilla
+[11:39:25] [Render thread/INFO]: ARRP register - after vanilla
+[11:39:26] [Worker-ResourceReload-1/ERROR]: Invalid path in mod resource-pack modernui: modernui:font/muii18ncompat/OFL.txt, ignoring
+[11:39:26] [Worker-ResourceReload-6/ERROR]: Invalid path in mod resource-pack modernui: modernui:emoji/LICENSE.txt, ignoring
+[11:39:26] [Worker-ResourceReload-6/INFO]: Scanned emoji map size: 3456
+[11:39:26] [Worker-ResourceReload-6/INFO]: Scanned emoji shortcodes: 6667
+[11:39:26] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
+[11:39:26] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[11:39:26] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[11:39:26] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
+[11:39:26] [Worker-ResourceReload-1/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
+[11:39:27] [Render thread/INFO]: No resource loader plugins were found, no resources to load
+[11:39:27] [Render thread/INFO]: MixinProcessScreen.setScreen: net.minecraft.class_442@597686bc
+[11:39:27] [Render thread/INFO]: MixinProcessScreen.setScreenTitle: translation{key='narrator.screen.title', args=[]}
+[11:39:28] [Render thread/ERROR]: Invalid path in mod resource-pack modernui: modernui:font/muii18ncompat/OFL.txt, ignoring
+[11:39:29] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
+[11:39:30] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
+[11:39:30] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
+[11:39:30] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
+[11:39:30] [Render thread/INFO]: Loaded typeface: {Source Han Sans CN Medium,Segoe UI,SimHei,Segoe UI Variable,mui-i18n-compat}
+[11:39:30] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/redstone.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:30] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/pumpkinstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:30] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/redstone.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:30] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/pumpkinstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/melonstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/myceliumparticle.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/melonstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/myceliumparticle.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/lavadrop.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/lavadrop.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/durability.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/durability.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/redstone.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/xporb.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/xporb.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/pumpkinstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/redstone.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/melonstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/melonstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/myceliumparticle.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/myceliumparticle.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/lavadrop.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/lavadrop.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/durability.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/pumpkinstem.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-2/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/durability.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Colormatic directory
+java.io.FileNotFoundException: colormatic:colormap/xporb.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromColormaticNamespace(ColorMappingResource.java:49) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:74) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:31] [Worker-ResourceReload-0/ERROR]: Failed to load color mapping from Optifine directory
+java.io.FileNotFoundException: minecraft:optifine/colormap/xporb.png
+	at net.minecraft.class_5912.method_43043(class_5912.java:21) ~[client-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_5912.getResourceOrThrow(class_5912.java:21) ~[client-intermediary.jar:?]
+	at net.minecraft.class_5912.open(class_5912.java:25) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3685.method_16049(class_3685.java:14) ~[client-intermediary.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.attemptToLoadFromOptifineDirectory(ColorMappingResource.java:60) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at vanadium.customcolors.resources.ColorMappingResource.lambda$load$0(ColorMappingResource.java:80) ~[%5Bopti纹理%5D%20vanadium-0.1.625.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11:39:32] [Render thread/INFO]: [STDOUT]: Baritone settings file not found, resetting.
+[11:39:35] [Worker-ResourceReload-0/WARN]: Texture ftblibrary:icons/nbt/int with size 8x8 limits mip level from 4 to 3
+[11:39:35] [Worker-ResourceReload-0/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[11:39:35] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@2cd7faf5 (java.lang.IllegalStateException: Array must have size 1, but has size 7)
+[11:39:35] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@71ffa4f4 (java.lang.IllegalStateException: Array must have size 1, but has size 3)
+[11:39:35] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@54397819 (java.lang.IllegalStateException: Array must have size 1, but has size 3)
+[11:39:36] [Render thread/WARN]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected key.isometric-renders.area_select to be a string, was an array (["",...域"]))
+[11:39:36] [Render thread/WARN]: Skipped language file: mythicmetals:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected tooltip.mythril_drill.refuel to be a string, was an array ([{"t..."}]))
+[11:39:37] [Render thread/WARN]: Skipped language file: minecells:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected chat.minecells.wipe_try to be a string, was an array (["\n...n"]))
+[11:39:41] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@25e41605 (java.lang.IllegalStateException: Array must have size 1, but has size 7)
+[11:39:41] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@1c9f912e (java.lang.IllegalStateException: Array must have size 1, but has size 3)
+[11:39:41] [Render thread/WARN]: Failed to parse translations from net.minecraft.class_3298@574d6455 (java.lang.IllegalStateException: Array must have size 1, but has size 3)
+[11:39:41] [Render thread/INFO]: Initializing Meteor Client
+[11:39:42] [Render thread/INFO]: Reflections took 745 ms to scan 1 urls, producing 21 keys and 859 values
+[11:39:42] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[11:39:42] [Render thread/INFO]: Reflections took 5 ms to scan 1 urls, producing 2 keys and 4 values
+[11:39:43] [Render thread/WARN]: Failed to load system font DejaVu Sans Mono Regular (C:\Windows\Fonts\DejaVuSansMono-Oblique_0.ttf)
+[11:39:43] [Render thread/WARN]: Failed to load system font DejaVu Sans Mono Regular (C:\Windows\Fonts\DejaVuSansMono_0.ttf)
+[11:39:48] [Render thread/INFO]: Found 73 font families.
+[11:39:49] [Render thread/INFO]: Initializing litematica printer
+[11:39:49] [Render thread/INFO]: Initializing Meteor Villager Roller
+[11:39:49] [Render thread/INFO]: Loading
+[11:39:49] [Render thread/INFO]: Loaded in 243 milliseconds
+[11:39:51] [Render thread/INFO]: Loaded OpenGL canvas shaders, compatibility mode: false
+[11:39:51] [Render thread/INFO]: UI renderer initialized
+[11:39:51] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[11:39:51] [Render thread/INFO]: New world map region cache hash code: -1801918886
+[11:39:51] [Render thread/INFO]: Registered player tracker system: map_synced
+[11:39:51] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[11:39:51] [Render thread/INFO]: Registered player tracker system: minimap_synced
+[11:39:51] [Render thread/INFO]: No Optifine!
+[11:39:51] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[11:39:51] [Render thread/INFO]: Loaded smart SDF text shaders
+[11:39:51] [Render thread/ERROR]: Unreported exception thrown!
+java.lang.RuntimeException: java.lang.RuntimeException: XaeroPlus requires version: '23.8.1' of Xaero's Minimap or BetterPVP installed
+	at xaero.minimap.XaeroMinimap.tryLoadLater(XaeroMinimap.java:244) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at net.minecraft.class_310.handler$gkh002$xaerominimap$onTickStart(class_310.java:36008) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1574(class_310.java) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1181) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[1.20.1%20Fabric.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.22.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at oolloo.jlw.Wrapper.invokeMain(Wrapper.java:60) ~[?:?]
+	at oolloo.jlw.Wrapper.main(Wrapper.java:53) ~[?:?]
+Caused by: java.lang.RuntimeException: XaeroPlus requires version: '23.8.1' of Xaero's Minimap or BetterPVP installed
+	at xaeroplus.XaeroPlus.minimapCompatibleVersionCheck(XaeroPlus.java:48) ~[%5BXaero的地图增强%5D%20XaeroPlus-Fabric-1.20.1-50-WM1.34.1-MM23.8.1.jar:?]
+	at xaeroplus.XaeroPlus.initialize(XaeroPlus.java:30) ~[%5BXaero的地图增强%5D%20XaeroPlus-Fabric-1.20.1-50-WM1.34.1-MM23.8.1.jar:?]
+	at xaero.minimap.XaeroMinimap.handler$gnh000$xaeroplus$loadCommonInject(XaeroMinimap.java:657) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at xaero.minimap.XaeroMinimap.loadCommon(XaeroMinimap.java) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at xaero.minimap.XaeroMinimap.onInitializeClient(XaeroMinimap.java:78) ~[%5BXaero的小地图%5D%20Xaeros_Minimap_23.8.0_Fabric_1.20.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) ~[fabric-loader-0.14.22.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:458) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[1.20.1%20Fabric.jar:?]
+	... 9 more
+[11:39:52] [Render thread/INFO]: pcaSyncProtocol onDisconnect.
+[11:39:52] [Render thread/INFO]: MixinProcessScreen.setScreen: net.minecraft.class_424@636fe391
+[11:39:52] [Render thread/INFO]: MixinProcessScreen.setScreenTitle: translation{key='menu.savingLevel', args=[]}
+[11:39:53] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
+[11:39:53] [Thread-13/INFO]: Saving
